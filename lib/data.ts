@@ -45,7 +45,7 @@ type Project = {
 export const projects: Project[] = [
   {
     title: 'Chat App',
-    icon: '/projects/chat.png'
+    icon: '/projects/chat.png',
     domain: 'Application Development',
     description:
       'Real-time messaging, authentication and profile management, GetX state management',
@@ -53,7 +53,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Social Media App',
-    icon: '/projects/chatapp.png'
+    icon: '/projects/chatapp.png',
     domain: 'Application Development',
     description:
       'User registration, posting, likes, comments, following.',
@@ -61,7 +61,7 @@ export const projects: Project[] = [
   },
   {
     title: 'IdeaSpark AI Chatbot',
-    icon: '/projects/chatbot.png'
+    icon: '/projects/chatbot.png',
     domain: 'Application Development',
     description:
       'Created an interactive two-player Tic Tac Toe game with real-time win condition checks and reset functionality using vanilla JavaScript.',
@@ -69,7 +69,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Travel App',
-    icon: '/projects/travel.png'
+    icon: '/projects/travel.png',
     domain: 'Application Development',
     description:
       'Converted Figma design into responsive Flutter travel app, Booking and profile management features',
@@ -77,7 +77,7 @@ export const projects: Project[] = [
   },
   {
     title: 'E-Commerce App',
-    icon: '/projects/ecommerce.png'
+    icon: '/projects/ecommerce.png',
     domain: 'Application Development',
     description:
       'Full UI with cart, orders, and profile management.',
@@ -85,7 +85,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Grocery App',
-    icon: '/projects/groccery.png'
+    icon: '/projects/groccery.png',
     domain: 'Application Development',
     description:
       'Full fledge grocery app with booking, account creation, payment, booking management, wishlist and cart manaement with getx and nodjs backend.',
@@ -93,7 +93,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Marriage Buarea',
-    icon: '/projects/marriage.png'
+    icon: '/projects/marriage.png',
     domain: 'Application Development',
     description:
       'Full fledge app of marriage beauru with accoun creation, couple finding, filters and account management with provider and firebase.',
@@ -101,7 +101,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Notes & To-Do App',
-    icon: '/projects/todo.png'
+    icon: '/projects/todo.png',
     domain: 'Application Development',
     description:
       'Built as a beginner project with Hive local DB.',
@@ -109,7 +109,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Mini Excel',
-    icon: '/projects/excel.png'
+    icon: '/projects/excel.png',
     domain: 'C++ Development',
     description:
       'Spreadsheet functions using DSA (Doubly Linked List).',
@@ -117,7 +117,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Supermarket Management System',
-    icon: '/projects/supermarket.png'
+    icon: '/projects/supermarket.png',
     domain: 'C++ Development',
     description:
       'Console app with mouse integration.',
