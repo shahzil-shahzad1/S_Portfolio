@@ -14,7 +14,7 @@ const HomePage = () => (
         alt="A person diving towards the sky"
         width={800}
         height={800}
-        className="w-fit max-w-[320px] sm:max-w-[400px] md:max-w-full min-w-fit h-full object-cover rounded-3xl shadow-2xl transition-transform duration-500 ease-in-out hover:scale-[1.03]"
+        className="w-fit max-w-[320px] sm:max-w-[400px] md:max-w-full h-full object-cover rounded-3xl shadow-2xl transition-transform duration-500 ease-in-out hover:scale-[1.03]"
         />
       </div>
 
