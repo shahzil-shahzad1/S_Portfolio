@@ -38,14 +38,14 @@ const HomePage = () => (
         <div className="flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4 sm:gap-6 mt-8">
           <a
             href="https://linktr.ee/Sheharyar_Shahzad_Rana?utm_source=chatgpt.com"
-            className="px-8 py-3 bg-[#FF3B30] text-white font-bold rounded-full shadow-lg transition-all hover:bg-[#f50d00] duration-300 ease-in-out w-full sm:w-auto text-center"
+            className="px-8 py-3 bg-[#FF3B30] text-white font-bold rounded-full shadow-lg transition-all hover:bg-[#fc2f23] duration-300 ease-in-out w-full sm:w-auto text-center"
           >
             Get in Touch
           </a>
           <a
             href="/cv.pdf"
             download
-            className="px-8 py-3 bg-[#FF3B30] text-white font-bold rounded-full shadow-lg transition-all hover:bg-[#f50d00] duration-300 ease-in-out w-full sm:w-auto text-center"
+            className="px-8 py-3 bg-[#FF3B30] text-white font-bold rounded-full shadow-lg transition-all hover:bg-[#fc2f23] duration-300 ease-in-out w-full sm:w-auto text-center"
           >
             Download CV
           </a>
