@@ -44,7 +44,7 @@ const GalleryPage = () => {
           onClick={() => setSelectedImage(null)}
         >
           <button
-            className="absolute top-6 right-6 text-white hover:text-gray-300"
+            className="absolute top-6 right-6 text-white hover:text-gray-300 cursor-pointer"
             onClick={() => setSelectedImage(null)}
           >
             <X size={30} />
