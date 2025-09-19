@@ -49,9 +49,10 @@ const Navbar = ({ activeSectionId, pages }: NavbarProps) => {
                 <a
                   href={`#${page.id}`}
                   onClick={() => setMenuOpen(false)}
-                  className={`block w-full text-center text-sm font-semibold transition-colors px-4 py-2 rounded-md hover:bg-[#FF3B30] hover:text-white ${
+{/*                   #FF3B30 */}
+                  className={`block w-full text-center text-sm font-semibold transition-colors px-4 py-2 rounded-md hover:bg-[#fc2f23] hover:text-white ${
                     activeSectionId === page.id
-                      ? "bg-[#f50d00] text-white border border-[#f50d00]"
+                      ? "bg-[#fc2f23] text-white border border-[#fc2f23]"
                       : "text-gray-100 hover:text-black"
                   }`}
                 >
