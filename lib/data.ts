@@ -37,6 +37,7 @@ export const experience: ExperienceItem[] = [
 type Project = {
   title: string;
   domain: string;
+  icon: string;
   description: string;
   technologies: string[];
   link?: string;
