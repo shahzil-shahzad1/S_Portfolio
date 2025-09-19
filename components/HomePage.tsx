@@ -4,7 +4,7 @@ import Image from "next/image";
 const HomePage = () => (
   <section
     id="home"
-    className="w-full min-h-screen px-4 sm:px-8 lg:px-16 py-20"
+    className="w-full min-h-fit px-4 sm:px-8 lg:px-16 py-20"
   >
     <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between  gap-12 pt-10">
       {/* Image + role text */}
