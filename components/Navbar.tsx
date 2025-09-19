@@ -18,9 +18,9 @@ const Navbar = ({ activeSectionId, pages }: NavbarProps) => {
           <li key={index}>
             <a
               href={`#${page.id}`}
-              className={`text-sm sm:text-base font-semibold transition-colors rounded-full px-4 py-2 duration-200 hover:bg-[#FF3B30] hover:text-white ${
+              className={`text-sm sm:text-base font-semibold transition-colors rounded-full px-4 py-2 duration-200 hover:bg-[#fc2f23] hover:text-white ${
                 activeSectionId === page.id
-                  ? "bg-[#f50d00] text-white border border-[#f50d00]"
+                  ? "bg-[#fc2f23] text-white border border-[#fc2f23]"
                   : "text-gray-100 hover:text-black"
               }`}
             >
