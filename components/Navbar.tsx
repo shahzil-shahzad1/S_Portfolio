@@ -42,7 +42,7 @@ const Navbar = ({ activeSectionId, pages }: NavbarProps) => {
 
       {/* Mobile Dropdown */}
       {menuOpen && (
-        <div className="absolute top-full -left-[130px] w-[200px] bg-[#18181B] rounded-lg shadow-md mt-2 nav-hide">
+        <div className="absolute top-full -left-[70%] w-fit bg-[#18181B] rounded-lg shadow-md mt-2 nav-hide">
           <ul className="flex flex-col items-center gap-2 py-4">
             {pages.map((page, index) => (
               <li key={index} className="w-full">
