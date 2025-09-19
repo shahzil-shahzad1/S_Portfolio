@@ -35,7 +35,7 @@ const AchievementsPage = () => {
                 className="flex flex-col items-center text-center cursor-pointer"
                 onClick={() => setSelectedImage(cert.icon)}
               >
-                <div className="h-32 w-44 flex items-center justify-center bg-[#111] border border-gray-700 rounded-lg overflow-hidden">
+                <div className="h-32 w-full sm:w-44 flex items-center justify-center bg-[#111] border border-gray-700 rounded-lg overflow-hidden">
                   <Image
                     src={cert.icon}
                     alt={cert.name}
