@@ -1,5 +1,5 @@
 import React from "react";
-import { eventImages, teamImages } from "@/lib/data";
+import { teamImages } from "@/lib/data";
 import Image from "next/image";
 
 const GalleryPage = () => (
